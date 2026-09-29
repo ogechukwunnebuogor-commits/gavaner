@@ -1,0 +1,673 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    width: 100%;
+    background:rgb(22, 22, 6);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 80px;
+    padding-left: 20px;
+    padding-top: 20px;
+    border-bottom: 2px solid navy; 
+    
+}
+header img {
+    height: 100%;
+    width: 100px;
+    
+}
+.navbar {
+     padding: 0 15px;
+     line-height: 65px;
+}
+.navbar a:hover {
+    background-color: rgba(120, 71, 255, 0.637);
+    color: rgb(0, 0, 0);
+}
+.navbar a{
+    text-decoration: none;
+    color:aquamarine;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0 15px;
+    padding: 20px 15px;
+    border-radius: 10px;
+}
+#btm{
+    padding: 10px 25px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: .4s ease;
+}
+#btm:hover{
+    background-color: navy;
+    color: white;
+}
+.sec{
+    height: 90vh;
+    width: 100%;
+    background: url(/img/BackgroundEraser_20250605_190927284.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color:paleturquoise;
+}
+.hometext h1 {
+    font-size: 50px;
+    position: absolute;
+    top: 400px;
+    bottom: 1%;
+    left: 30px;
+
+}
+span {
+    color: rgb(65, 5, 5);
+    font-size: 65px;
+}
+.sec h2 {
+    color:rgb(63, 12, 12);
+    position: absolute;
+    font-size: 65px;
+    top: 400px;
+    left:75%;
+}
+.snd-lay {
+    width: 100vw;
+    padding: 50px 20px 0;
+}
+.snd-lay h1{
+    text-align: center;
+    font-size: 3.5em;
+    margin-bottom: 2.5%;
+}
+.snd-lay h2{
+    text-align: center;
+}
+.service-box{
+    padding: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 550px;
+}
+.service-box-image {}
+.service-box-image, .service-box-text {
+    width: 45%;
+    height: 100%;
+}
+.service-box-image img{
+    height: 100%;
+    width: 100%;
+    border-radius: 60px;
+}
+.service-box-text h2{
+    font-size: 40PX;
+    text-align: center;
+    margin-bottom: 5%;
+}
+.service-box p {}
+
+/*  ***** THIRD LAYOUT STARTS  *****  */
+
+.thirdlayout{
+    height: 115vh;
+    width: 100vw;
+    padding: 5%;
+}
+.product{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+.product-title{
+    font-weight:900;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.p-info{
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+}
+.p-box{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2%;
+    width: 100%;
+}
+.p-tatt {
+    text-align: center;
+    height: 250PX;
+    width: 30%;
+    padding: 20px;
+    margin: 1%;
+    border-radius: 20px;
+    transition: 1s ease;
+    border: 2px solid gray;
+
+}
+.four:hover {
+    background: url(/image/Screenshot_20250606-114049.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.tatt-title {
+    font-size: 19px;
+    margin-bottom: 5%;
+    padding-top: 1em;
+}
+.one:hover{
+    background: url(/image/Screenshot_20250605-202252.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#class{
+    color: red;
+    position: relative;
+    top: 13px;
+    font-weight: 900;
+}
+#class:hover{
+        color:aquamarine;
+        transition: 2s;
+}
+.two:hover{
+    background: url(/image/186f7e27fb4d62248892e629711b3619.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#leg-readmore{
+    color: red;
+    font-weight: 900;
+    position: relative;
+    top: 13px;
+}
+#leg-readmore:hover{
+    color: aquamarine;
+    transition: 2s;
+}
+.three:hover{
+    background: url(/image/1-Gorgeous-Floral-Thigh-Tattoo\ \(1\).jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.five:hover{
+    background: url(/image/tat.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.four:hover{
+    background: url(/image/Hand-more.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#thigh-readmore{
+    color: red;
+    position: relative;
+    top: 13px;
+    font-weight: 900
+}
+#thigh-readmore:hover{
+    color:aquamarine;
+    transition: 2s;
+}
+#hand-readmore{
+    color:red ;
+    font-weight: 900;
+    position: relative;
+    top: 7px;
+}
+#hand-readmore:hover{
+    color: aquamarine;
+    transition: 2s;
+}
+#chest-readmore{
+    color: red;
+    font-weight: 900;
+    position: relative;
+}
+#chest-readmore:hover{
+    color: aquamarine;
+    transition: 2s;
+}
+.p-tatt a{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+
+}
+.ending{
+    height: 100vh;
+    width: 100vw;
+    padding: 5%;
+    background: rgb(222, 222, 238);
+}
+.ending-title{
+    font-size: 6em;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.ending p{
+    font-size: 1.8em;
+    text-align: center;
+ }
+ #discount{
+    padding-top: 5em;
+    padding-left: 3em;
+ }
+ .more{
+    font-size: 1em;
+    text-align: center;
+    color: navy;
+ }
+ .less{
+    color: red;
+    font-size: 1em;
+ }
+/* *******  FOOTER ******  */
+footer {
+    width: 100%;
+    background: black;
+    
+}
+.foot-logo{
+    font-size: 45px;
+    color: white;
+    padding-left: 0.5em;
+}
+.holder{
+    display: flex;
+    justify-content: space-around;
+    height: 25vh;
+}
+.foot-box {
+    padding: 2%;
+}
+.title-1{
+    font-size: 20px;
+    color: white;
+    text-align:center;
+    margin-bottom: 20px;
+}
+.title-2{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom:20px;
+}
+.title-3{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.info{
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
+.for{
+    color: white;
+    text-align: center;
+    display: flex;
+    position: absolute;
+    left:1em;
+    padding-bottom: 4em;
+}
+.instagram{
+    display: flex;
+    position: absolute;
+}
+.foot-box a{
+    color: antiquewhite;
+    text-decoration: none;
+}
+#copyright{
+    color: white;
+    font-size: 16.5px;
+    text-align: center;
+    font-weight: 600;
+}
+hr{
+    margin-bottom: 2%;
+}
+video{
+    width:100vw;
+    height:150vh;
+    object-fit: cover;
+    background-color: rgb(48, 71, 71);
+}
+.we{
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+}
+.draw{
+    justify-items: center;
+    padding-top: 2em;
+    padding-left: 2.5em;
+    font-size: 4em;
+    font-weight: 1000;
+    font-family: 'Times New Roman', Times, serif;
+}
+.semi{
+    padding-left: 2em;
+    padding-top: 2em;
+    font-weight: 1000;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+}
+.offer{
+    width: 100vw;
+    height: 80vh;
+    background-color: brown;
+    padding-bottom: 24em;
+}
+.differ{
+    width: 50vw;
+    font-size: 3em;
+    padding-left: 5em;
+}
+#bold{
+    font-size: 2em;
+    font-family:'Times New Roman', Times, serif;
+    padding-left: 1em;
+    padding-top: 20em;
+    position: absolute;
+    justify-content: center;}
+.henna{
+    width: 70vw;
+    height: 60vh;
+    padding-left: 29em;
+    padding-top: 3em;
+    border-color: blue;
+    border-radius: 4em;
+    padding-bottom: 4em;
+}
+.des{
+    width:100vw ;
+    height:100vh;
+    background-color:rgb(73, 14, 14);
+    padding-bottom: 2em;
+}
+#desing{
+    width: 20vw;
+}
+.skin{
+    width: 30vw;
+} 
+.bro{
+    height: 50vh;
+    width: 30vw;
+    padding-left: 2em;
+    padding-top: 3em;
+    position: absolute;
+    border-radius: 2.5em;
+    position: absolute;
+}
+.insta{
+    width: 10vw;
+    height: 16vh;
+    padding-top:3em;
+    padding-bottom:2em;
+    padding-left:2em;
+}
+.parmanent{
+    width: 100vw;
+    height: 50vh;
+}
+#desing{
+    width: 30vw;
+    height: 55vh;
+    padding-left: 2em;
+    padding-top: 2.5em;
+    border-radius: 3em;
+}
+.slideshow{
+    width: 100vw;
+    display: none; 
+}
+.d-leg{
+    background-color: rgb(70, 104, 100);
+    width: 100vw;
+    height: 135vh;
+}
+#add-leg{
+    width: 35vw;
+    height: 73vh;
+    border-radius: 2em;
+}
+#ad-leg{
+    width: 35vw;
+    height: 73vh;
+    border-radius: 2em;   
+}
+.air{
+    width: 100vw;
+    height: 100vh;
+}
+#the-kings{
+    padding-top: 2em;
+    padding-right: 2em;
+    padding-bottom: 2em;
+    padding-left: 8em;
+    font-size: 3em;
+    font-weight: 900;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+#here{
+    font-size: 2.5em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left:7em ;
+    padding-bottom: 2em;
+}
+.ima{
+border: solid black 6px;
+border-radius: 1em;
+margin-right: 3em;
+margin-left: 2em;
+height: 83vh;
+}
+#space{
+    padding-left: 2em;
+    font-weight: 800;
+}
+.meaning{
+    width: 100vw;
+    height: 100vh;
+    background: rgb(56,126, 103 );
+    container: 2em;
+}
+#and{
+    font-family:'Times New Roman', Times, serif;
+    color: whitesmoke;
+    position: relative;
+    padding-left: 19.5em;
+    padding-top: 2em;
+}
+#mean{
+    margin-left:5em; 
+    margin-right: 5em;
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 900;
+    font-size: 1.5em;
+    padding: 2em;
+}
+#in{
+    margin-left: 3em;
+    margin-right: 3em;
+    color: white; 
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 1000;
+    font-size: 1.5em;
+}
+.com{
+    border: 2px solid rgb(61, 29, 29);
+   container: 2em;
+   margin-top: 4px;
+   padding-bottom: 1em;
+   margin-left: 1.5em;
+   margin-right: 1em;
+   border-radius: 20px;
+}
+#bi{
+    color: rgb(61, 35, 35);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.br{
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+}
+#SOM{
+    color: white;
+    padding-top: 1.5em;
+    padding-left: 2em;
+}
+#hen{
+    color: brown;
+    font-size: 2em;
+    font-weight:1000;
+    font-family: 'Courier New', Courier, monospace;
+}
+.chai{
+    border: solid rgb(221, 210, 210) 5px;
+    margin-left: 2em;
+    margin-top: 2em;
+    margin-right: 2em;
+    margin-bottom: 3em;
+    border-radius: 20px;
+    background-color: rgb(99, 24, 5);
+}
+#age{
+    margin: 1em;
+    border-radius: 1em;
+    height: 75vh;
+}
+#terminate{
+    width: 30vw;
+    height: 75vh;
+    margin: 1em;
+    border-radius: 1em;
+}
+#pet{
+    width: 28vw;
+    height: 75vh;
+    margin: 1em;
+    border-radius:1em;
+}
+.SUC{
+    background-color: blueviolet;
+    width: 100vw;
+    height: 100vh;
+}
+#CIDE{
+    padding-left:5.5em;
+    padding-top: 2em;
+    padding-bottom: 2EM;
+    font-weight: 900;
+    font-size: 3em;
+    font-family: 'Times New Roman', Times, serif;
+    }
+.ple{
+        border:3px solid black;
+        border-radius: 25px;
+        padding-left: 2em;
+        padding-top: 0.3em;
+        padding-right: 2.6em;
+        margin-right: 2.6em;
+        margin-left: 1.5em;
+        padding-bottom: 1.5em;
+    }
+#not{
+    padding-top: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
+    font-size: 1.5em;
+    font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
+}
+#is{
+    padding-left: 1em;
+    padding-top: 1em;
+    padding-right: 2em;
+    font-weight: 900;
+    font-size: 1.5em;
+    font-family: 'Courier New', Courier, monospace;
+}
+.big-bro{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(37, 7, 7);
+}
+#be{
+    color: snow;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+    font-size: 2em;
+    padding-left: 8em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+.bod{
+    border: solid gray 5px;
+    border-radius: 2em;
+    margin-left: 2em;
+    margin-right: 3em;
+}
+#ta{
+    width: 30vw;
+    height: 60vh;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    border-radius: 2em;
+}
+#tat{
+    width: 30vw;
+    height: 60vh;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    border-radius: 20px;
+}
+.home{
+    background-color: blueviolet;
+}
+.tion{
+    width: 100vw;
+    height: 100vh;
+    background-color: aquamarine;
+}
+#big{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 5em;
+    font-weight: 900;
+    color: rgb(53, 30, 5);
+    padding-left: 6.5em;
+    padding-top: 1em;
+}
+.instagram{
+    padding-left: 1em;
+}
+.what{
+    padding-left:2.5em;
+}
